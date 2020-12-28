@@ -8,13 +8,14 @@
 }
 .footer {
   position: relative;
-  max-width: 50%;
+  max-width: 55%;
   top: 250px;
-  font-weight: 50px;
   border-radius: 1rem;
   border: 1px solid black;
   padding: 1rem;
   margin: auto;
+  font-weight: bold;
+  text-align: center;
 }
 li {
   display: inline;
@@ -41,7 +42,7 @@ li {
   border: 1px solid black;
   border-radius: 1rem;
   padding: 1rem;
-  max-width: 50%;
+  max-width: 55%;
   margin: auto;
   /* background-image: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/cute-birthday-instagram-captions-1584723902.jpg");
   background-position: center; */

@@ -81,19 +81,30 @@ export default function App() {
       </div>
       <footer className="footer card-3">
         <li>
-          <a style={{}} href="https://github.com/amansethi00">
+          <a
+            style={{ textDecoration: "none", color: "black" }}
+            href="https://github.com/amansethi00"
+          >
             Github
           </a>
         </li>
         <li>
-          <a href="https://instagram.com/oye.sethi.00">
-            <img src="./assets/github."/></a>
-          </li>
-          <li>
-            <a href="https://twitter.com/amansethi00">Twitter</a>
-          </li>
-        </footer>
-      </div>
+          <a
+            href="https://instagram.com/oye.sethi.00"
+            style={{ textDecoration: "none", color: "black" }}
+          >
+            Instagram
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://twitter.com/amansethi00"
+            style={{ textDecoration: "none", color: "black" }}
+          >
+            Twitter
+          </a>
+        </li>
+      </footer>
     </div>
   );
 }
