@@ -2,18 +2,28 @@
   font-family: sans-serif;
   text-align: center;
 }
+:root {
+  background-image: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/gettyimages-1155208823.jpg");
+  background-position: center;
+}
 .footer {
   position: relative;
-  top: 80px;
-  background-color: antiquewhite;
+  max-width: 50%;
+  top: 250px;
+  font-weight: 50px;
   border-radius: 1rem;
   border: 1px solid black;
   padding: 1rem;
-  box-shadow: ;
+  margin: auto;
 }
 li {
   display: inline;
   padding: 1rem;
+}
+#submit-btn {
+  margin-top: 1rem;
+  border: 1px solid black;
+  border-radius: 1rem;
 }
 .card {
   /* background: #fff;
@@ -26,4 +36,13 @@ li {
 }
 .card-3 {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+.container {
+  border: 1px solid black;
+  border-radius: 1rem;
+  padding: 1rem;
+  max-width: 50%;
+  margin: auto;
+  /* background-image: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/cute-birthday-instagram-captions-1584723902.jpg");
+  background-position: center; */
 }
