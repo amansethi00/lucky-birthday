@@ -72,6 +72,17 @@ export default function App() {
         loadedClassName="loadedContent"
       />
       <h3>{output}</h3>
+      <footer className="footer card card-3">
+        <li>
+          <a href="https://github.com/amansethi00">Github</a>
+        </li>
+        <li>
+          <a href="https://instagram.com/oye.sethi.00">Instagram</a>
+        </li>
+        <li>
+          <a href="https://twitter.com/amansethi00">Twitter</a>
+        </li>
+      </footer>
     </div>
   );
 }
